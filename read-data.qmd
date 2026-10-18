@@ -1,0 +1,16 @@
+---
+title: "read-data"
+format: pdf
+---
+
+**CONDENSE SPRING DATA INTO ONE DATASET**
+
+```{r}
+
+```
+
+**CLEAN DATA**
+
+```{r}
+
+```
