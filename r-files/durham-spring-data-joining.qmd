@@ -1,0 +1,362 @@
+---
+title: "Durham Spring Bird Count: Data Preparation and Joining"
+format: pdf
+---
+
+**DATA Preparation and Joining**
+
+# Durham Spring Bird Count: Data Preparation and Joining
+
+This document records the steps taken to combine Durham spring bird count data from 1974–2022 into one dataset.
+
+The main goal was to join the datasets by species name, with one row per species and one column per year.
+
+**IMPORTANT:** This document focuses on data preparation and joining. The combined dataset has not undergone comprehensive cleaning and will require further review by other team members.
+
+# Part 1: Combining the 2016–2022 Datasets
+
+## 1. Importing the Datasets
+
+Imported the Durham spring bird count spreadsheets from 2016–2022.
+
+The historical 1974–2015 dataset was initially excluded because it uses a different format. It will be incorporated separately in Part 2.
+
+```{r}
+#| label: import-recent-data
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(readxl)
+
+durham_2016 <- read_excel("../data/spring/Durham-2016-spring.xls")
+durham_2017 <- read_excel("../data/spring/Durham-2017-spring.xls")
+durham_2018 <- read_excel("../data/spring/Durham-2018-spring.xls")
+durham_2019 <- read_excel("../data/spring/Durham-2019-spring.xls")
+durham_2020 <- read_excel("../data/spring/Durham-2020-spring.xls")
+durham_2021 <- read_excel("../data/spring/Durham-2021-spring.xls")
+durham_2022 <- read_excel("../data/spring/Durham-2022-spring.xls")
+```
+
+## 2. Inspecting Additional Survey Information
+
+The original spreadsheets contain additional survey information at the bottom, including feeder hours, observer information, and other records that are not individual bird species.
+
+Inspected the bottom rows of each dataset to identify where the species-count information ends.
+
+```{r}
+#| label: inspect-recent-bottom-rows
+#| results: hide
+
+tail(durham_2016, 28)
+tail(durham_2017, 28)
+tail(durham_2018, 29)
+tail(durham_2019, 29)
+tail(durham_2020, 32)
+tail(durham_2021, 33)
+tail(durham_2022, 34)
+```
+
+## 3. Excluding Additional Survey Information
+
+Removed the bottom rows of each yearly dataset, beginning around the "FEEDER HOURS" section, to exclude supplementary survey information such as observer names, party details, and other administrative records.
+
+The number of rows excluded differs by year because each spreadsheet contains different amounts of additional information.
+
+```{r}
+#| label: exclude-recent-survey-information
+
+durham_2016_cut <- durham_2016 |>
+  slice_head(n = nrow(durham_2016) - 28)
+durham_2017_cut <- durham_2017 |>
+  slice_head(n = nrow(durham_2017) - 28)
+durham_2018_cut <- durham_2018 |>
+  slice_head(n = nrow(durham_2018) - 29)
+durham_2019_cut <- durham_2019 |>
+  slice_head(n = nrow(durham_2019) - 29)
+durham_2020_cut <- durham_2020 |>
+  slice_head(n = nrow(durham_2020) - 32)
+durham_2021_cut <- durham_2021 |>
+  slice_head(n = nrow(durham_2021) - 33)
+durham_2022_cut <- durham_2022 |>
+  slice_head(n = nrow(durham_2022) - 34)
+
+```
+
+**DISCLAIMER:** The excluded rows may contain useful survey information. These were excluded only from the working datasets and remain available in the original Excel files.
+
+Future team members may want to preserve this information in a separate dataset.
+
+The row cutoffs are specific to the current spreadsheets and should be checked if the source files change.
+
+## 4. Identifying Annual Total Count Columns
+
+Each spreadsheet contains counts from multiple survey locations and a "TOTALS" column representing the total count for each bird species that year.
+
+Identified the position of the "TOTALS" column in each spreadsheet because its location differs across years.
+
+```{r}
+#| label: identify-recent-total-columns
+
+list(
+  `2016` = durham_2016_cut,
+  `2017` = durham_2017_cut,
+  `2018` = durham_2018_cut,
+  `2019` = durham_2019_cut,
+  `2020` = durham_2020_cut,
+  `2021` = durham_2021_cut,
+  `2022` = durham_2022_cut
+) %>%
+  map(~ which(as.character(unlist(.x[2, ])) == "TOTALS"))
+```
+
+**DISCLAIMER:** Individual survey-location count columns were excluded from the combined dataset. Only the annual totals were retained.
+
+As a result, the combined dataset contains bird counts by species and year, but does not preserve the individual survey locations. The original Excel files should be used if location-level information is needed.
+
+## 5. Preparing the Yearly Datasets for Joining
+
+Created a function to standardize each yearly dataset before joining.
+
+The function retained only the species names and annual total bird counts, removed rows with missing or blank species names, converted counts to numeric values, and renamed the total count column to its corresponding year.
+
+Although the earlier step excluded the bottom survey-information sections, this function further excluded rows without species names, leaving the relevant bird-count records for joining.
+
+Note: This step prepared the datasets for joining but did not fully clean or validate the data.
+
+```{r}
+prepare_year <- function(data, year, total_col) {
+  data %>%
+    select(species = 2, total = all_of(total_col)) %>%
+    filter(!is.na(species), species != "") %>%
+    mutate(total = as.numeric(total)) %>%
+    rename_with(~ as.character(year), total)
+}
+```
+
+Applied the function to each dataset using the corresponding "TOTALS" column.
+
+```{r}
+#| label: prepare-recent-yearly-datasets
+
+d16 <- prepare_year(durham_2016_cut, 2016, 22)
+d17 <- prepare_year(durham_2017_cut, 2017, 22)
+d18 <- prepare_year(durham_2018_cut, 2018, 23)
+d19 <- prepare_year(durham_2019_cut, 2019, 24)
+d20 <- prepare_year(durham_2020_cut, 2020, 27)
+d21 <- prepare_year(durham_2021_cut, 2021, 27)
+d22 <- prepare_year(durham_2022_cut, 2022, 27)
+```
+
+**Note:** These steps were necessary to make the datasets compatible for joining. They do not represent comprehensive data cleaning.
+
+## 6. Checking for Duplicate Species
+
+Checked whether any species names appeared more than once within each yearly dataset.
+
+Duplicate species names can cause problems during a full join because multiple rows with the same species name may produce repeated observations.
+
+```{r}
+#| label: check-recent-duplicate-species
+
+d16 %>% count(species) %>% filter(n > 1)
+d17 %>% count(species) %>% filter(n > 1)
+d18 %>% count(species) %>% filter(n > 1)
+d19 %>% count(species) %>% filter(n > 1)
+d20 %>% count(species) %>% filter(n > 1)
+d21 %>% count(species) %>% filter(n > 1)
+d22 %>% count(species) %>% filter(n > 1)
+```
+
+Duplicate entries for "Hermit Thrush" were identified in the 2018 and 2019 datasets.
+
+Checked these entries more closely before proceeding.
+
+```{r}
+#| label: inspect-hermit-thrush-duplicates
+
+d18 %>% count(species) %>% filter(n > 1)
+d19 %>% count(species) %>% filter(n > 1)
+
+```
+
+```{r}
+d18 %>%
+  filter(species == "Hermit Thrush")
+
+durham_2018_cut %>%
+  filter(.[[2]] == "Hermit Thrush")
+
+durham_2018_cut %>%
+  mutate(row_number = row_number()) %>%
+  filter(.[[2]] == "Hermit Thrush") %>%
+  select(row_number, everything())
+durham_2018_cut %>%
+  slice(73:172)
+```
+
+## 7. Resolving Duplicate Entries for Joining
+
+Retained the first occurrence of each species in the 2018 and 2019 datasets to prevent duplicate species rows during joining.
+
+```{r}
+#| label: resolve-recent-duplicate-entries
+
+d18 <- d18 %>%
+  distinct(species, .keep_all = TRUE)
+d19 <- d19 %>%
+  distinct(species, .keep_all = TRUE)
+```
+
+**IMPORTANT DISCLAIMER:** The `distinct()` function retains the first occurrence of each species and excludes additional occurrences.
+
+This was done to prevent duplicate rows during joining. Future team members should verify that the excluded entries did not contain additional bird counts or information that should have been retained.
+
+This step should not be considered a final resolution of duplicate observations.
+
+## 8. Confirming Species Names Are Unique
+
+Checked all seven datasets again to confirm that no duplicate species names remained before joining.
+
+```{r}
+#| label: verify-recent-species-uniqueness
+
+list(d16, d17, d18, d19, d20, d21, d22) %>%
+  map(~ count(.x, species) %>% filter(n > 1))
+```
+
+## 9. Joining the 2016–2022 Datasets
+
+Used a full join to combine all seven datasets by species name.
+
+This produces one row per species and one count column for each year from 2016–2022.
+
+The full join also retains species that may appear in only some years.
+
+```{r}
+#| label: join-recent-datasets
+durham_combined <- list(
+  d16, d17, d18, d19, d20, d21, d22
+) %>%
+  reduce(full_join, by = "species")
+view(durham_combined)
+```
+
+**Note:** `durham_combined.csv` is an intermediate dataset containing the joined 2016–2022 records. It has not undergone comprehensive cleaning.
+
+# Part 2: Incorporating the 1974–2015 Dataset
+
+## 10. Importing the Historical Dataset
+
+Imported the historical Durham spring bird count dataset covering 1974–2015.
+
+Unlike the more recent spreadsheets, the historical data already contains multiple years in a single worksheet.
+
+Selected the "DURSBC" sheet and skipped the first three rows when importing.
+
+```{r}
+#| label: import-historical-data
+
+durham_7415 <- read_excel(
+  "../data/spring/Durham-1974-2015-spring.xls",
+  sheet = "DURSBC",
+  skip = 3
+)
+view(durham_7415)
+```
+
+## 11. Excluding Additional Historical Information
+
+Inspected the bottom of the historical dataset and created a working copy excluding the last 20 rows.
+
+Also excluded row 214 from the working dataset because it was identified as only containing N/A values during inspection.
+
+```{r}
+#| label: prepare-historical-rows
+
+tail(durham_7415, 19)
+durham_7415_cut <- durham_7415 |>
+  slice_head(n = nrow(durham_7415) - 20)
+view(durham_7415_cut)
+durham_7415_cut <- durham_7415_cut %>%
+  slice(-214)
+```
+
+**IMPORTANT DISCLAIMER:** The last 20 rows were also excluded from the working dataset. The original spreadsheet should be consulted if these records are needed.
+
+## 12. Removing Unnecessary Historical Columns
+
+The historical spreadsheet contains additional columns that are not needed for the species-by-year dataset.
+
+Excluded the first two columns and the `FRQ`, `AVG`, `MAX`, and `...49` columns.
+
+The goal was to retain only species names and annual bird counts.
+
+```{r}
+#| label: select-historical-year-columns
+
+names(durham_7415_cut)
+durham_7415_cut <- durham_7415_cut %>%
+  select(-c(1, 2))
+durham_7415_cut <- durham_7415_cut %>%
+  select(-c(FRQ, AVG, MAX, `...49`))
+names(durham_7415_cut)
+```
+
+**DISCLAIMER:** The excluded summary columns may contain useful information for other analyses. They were not included because this project focuses on annual bird counts by species.
+
+The original historical spreadsheet remains unchanged.
+
+## 13. Standardizing the Historical Species Column
+
+Renamed the historical species-name column to `species` so that it matches the species column in the 2016–2022 dataset.
+
+Also checked for duplicate species names before joining.
+
+```{r}
+#| label: standardize-historical-species
+
+durham_7415_cut <- durham_7415_cut %>%
+  rename(species = 1)
+names(durham_7415_cut)
+
+durham_7415_cut %>%
+  count(species) %>%
+  filter(n > 1)
+```
+
+**Note:** The join uses exact species-name matches. Differences in spelling, abbreviations, or naming conventions between the historical and recent datasets may result in separate rows for the same species.
+
+These inconsistencies will need to be reviewed during future data cleaning.
+
+# Part 3: Final Dataset Join
+
+## 14. Joining the Historical and Recent Datasets
+
+Used a full join to combine the historical 1974–2015 dataset with the 2016–2022 dataset.
+
+The datasets were joined by species name, producing a combined dataset covering 1974–2022. Excluded the first row of the joined dataset after inspecting the result.
+
+```{r}
+#| label: join-historical-and-recent-data
+durham_final <- durham_7415_cut %>%
+  full_join(durham_combined, by = "species")
+
+durham_final <- durham_final |>
+  slice(-1)
+view(durham_final)
+
+
+```
+
+## 15. Exporting the Final Joined Dataset
+
+Exported the combined Durham spring bird count dataset as a CSV file.
+
+The resulting dataset contains species names and annual count columns spanning 1974–2022.
+
+```{r}
+#| label: export-final-joined-data
+
+write_csv(durham_final, "durham_spring_final.csv")
+```
