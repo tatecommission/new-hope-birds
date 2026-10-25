@@ -3,8 +3,160 @@ title: "clean-data"
 format: pdf
 ---
 
-## CLEAN DATA
+## Clean Chapel Hill and Jordan Lake bird counts
+
+These steps create one CSV per location and season with `COMMON NAME` followed
+by numeric year columns in chronological order. Durham files are not read or
+modified. The original Excel files are preserved.
+
+Only the annual count blocks are imported: the later year-labeled abundance
+codes, summary statistics, survey effort, weather, dates, and notes are excluded.
+Chapel Hill retains the main species lists, excluding the separate unidentified
+and hybrid records and the winter list of rejected sightings. Jordan Lake keeps
+its unidentified bird-count records as well as its named species.
+
+Blank, `NA`, and `N/A` counts become zero. Chapel Hill's `cw` markers denote
+count-week sightings rather than count-day totals and are also recorded as zero.
+Other unexpected nonnumeric values raise an error instead of silently losing data.
 
 ```{r}
+#| label: setup
 
+# Install once if needed: install.packages("readxl")
+library(readxl)
+
+# Support both rendering from r-files/ and running from the repository root.
+data_dir <- if (dir.exists("../data")) "../data" else "data"
+stopifnot(dir.exists(data_dir))
+```
+
+## Shared cleaning functions
+
+Read headers as data so Excel's duplicate year labels are not automatically
+changed to names such as `1931...7`. The source ranges below are deliberately
+limited to count columns; some abundance-code columns also have year headers.
+Jordan Lake winter labels such as `1986-87` become `1986`.
+
+```{r}
+#| label: cleaning-functions
+
+clean_counts <- function(file, sheet, header_row, last_column, bird_rows) {
+  raw <- read_excel(
+    file.path(data_dir, file), sheet = sheet,
+    range = cell_limits(c(header_row, 1), c(max(bird_rows), last_column)),
+    col_names = FALSE, col_types = "text", .name_repair = "minimal"
+  )
+  headers <- toupper(trimws(as.character(unlist(raw[1, ]))))
+  name_column <- which(headers == "COMMON NAME")
+  year_columns <- which(grepl("^[12][0-9]{3}(-([0-9]{2}|[0-9]{4}))?$", headers))
+  stopifnot(length(name_column) == 1L, length(year_columns) > 0L)
+
+  # The first year in these winter ranges is the lesser year.
+  years <- sub("-.*$", "", headers[year_columns])
+  birds <- as.data.frame(raw[bird_rows - header_row + 1L,
+                            c(name_column, year_columns), drop = FALSE])
+  names(birds) <- c("COMMON NAME", years)
+  birds[[1]] <- trimws(birds[[1]])
+  birds <- birds[!is.na(birds[[1]]) & birds[[1]] != "", , drop = FALSE]
+
+  for (j in seq_along(years) + 1L) {
+    values <- toupper(trimws(birds[[j]]))
+    values[is.na(values) | values %in% c("", "NA", "N/A", "#N/A", "CW")] <- "0"
+    counts <- suppressWarnings(as.numeric(values))
+    invalid <- !is.finite(counts) | counts < 0 | counts != floor(counts)
+    if (any(invalid)) {
+      stop("Invalid counts in ", file, " (", years[j - 1L], "): ",
+           paste(unique(values[invalid]), collapse = ", "))
+    }
+    birds[[j]] <- counts
+  }
+
+  # Combine repeated year labels into a single annual count column.
+  result <- data.frame(birds[[1]], check.names = FALSE)
+  names(result) <- "COMMON NAME"
+  for (year in sort(unique(years))) {
+    columns <- which(years == year) + 1L
+    result[[year]] <- rowSums(birds[, columns, drop = FALSE])
+  }
+  rownames(result) <- NULL
+  stopifnot(!anyNA(result), !anyDuplicated(result[[1]]),
+            identical(names(result), toupper(names(result))))
+  result
+}
+```
+
+## Chapel Hill
+
+The spring species block is Excel rows 5–227 and the winter species block is
+rows 4–168. Later rows contain hybrids, unidentified birds, totals, effort, or
+notes. The winter source has two columns labeled `1931`; their counts are summed
+into a single `1931` column without guessing a replacement year.
+
+```{r}
+#| label: clean-chapel-hill
+
+chapel_hill_spring <- clean_counts(
+  "spring/Chapel-Hill-1952-2024-spring.xlsx", "CHBCSC",
+  header_row = 4, last_column = 70, bird_rows = 5:227
+)
+chapel_hill_winter <- clean_counts(
+  "winter/Chapel-Hill-1923-2023-winter.xlsx", "Sheet1",
+  header_row = 3, last_column = 96, bird_rows = 4:168
+)
+```
+
+## Jordan Lake
+
+Spring species occupy rows 5–230; additional unidentified bird counts occupy
+rows 242–266, after the summary and effort rows. Winter bird counts occupy
+rows 5–177, before the summary rows. The winter range `2021-22` becomes `2021`,
+so the cleaned winter year columns run from 1977 through 2021.
+
+```{r}
+#| label: clean-jordan-lake
+
+jordan_lake_spring <- clean_counts(
+  "spring/Jordan-Lake-1977-2022-spring.xlsx", "JLSBC",
+  header_row = 4, last_column = 49, bird_rows = c(5:230, 242:266)
+)
+jordan_lake_winter <- clean_counts(
+  "winter/Jordan-Lake-1977-2022-winter.xlsx", "JLCBC",
+  header_row = 4, last_column = 48, bird_rows = 5:177
+)
+```
+
+## Validate and export
+
+Rendering this document writes the four cleaned CSVs beside their source files.
+Year columns contain numeric counts only, with no missing values or row-number
+column. These ranges should be reviewed if the source spreadsheets change.
+
+```{r}
+#| label: validate-and-export
+
+cleaned <- list(
+  "spring/chapel_hill_spring_final.csv" = chapel_hill_spring,
+  "winter/chapel_hill_winter_final.csv" = chapel_hill_winter,
+  "spring/jordan_lake_spring_final.csv" = jordan_lake_spring,
+  "winter/jordan_lake_winter_final.csv" = jordan_lake_winter
+)
+
+for (file in names(cleaned)) {
+  counts <- cleaned[[file]]
+  stopifnot(
+    names(counts)[1] == "COMMON NAME",
+    all(grepl("^[12][0-9]{3}$", names(counts)[-1])),
+    !anyDuplicated(names(counts)),
+    all(vapply(counts[-1], is.numeric, logical(1))),
+    !anyNA(counts)
+  )
+  write.csv(counts, file.path(data_dir, file), row.names = FALSE, na = "0")
+}
+
+data.frame(
+  DATASET = names(cleaned),
+  BIRDS = vapply(cleaned, nrow, integer(1)),
+  YEARS = vapply(cleaned, function(x) ncol(x) - 1L, integer(1)),
+  row.names = NULL
+)
 ```
