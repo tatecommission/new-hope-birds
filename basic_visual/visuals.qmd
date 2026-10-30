@@ -1,0 +1,22 @@
+---
+title: "visuals"
+format: html
+---
+
+```{r}
+#read-data
+library(tidyverse)
+durham_spring <- read_csv("../data/spring/durham_spring_final.csv")
+jordan_lake_spring <- read_csv("../data/spring/jordan_lake_spring_final.csv")
+chapel_hill_spring <- read_csv("../data/spring/chapel_hill_spring_final.csv")
+
+durham_winter <- read_csv("../data/winter/Durham-1968-2023-winter.xlsx - DURCBC.csv")
+chapel_hill_winter <- read_csv("../data/winter/chapel_hill_winter_final.csv")
+jordan_lake_winter <- read_csv("../data/winter/jordan_lake_winter_final.csv")
+```
+
+```{r}
+
+
+```
+
