@@ -98,6 +98,28 @@ plot_overlay <- ggplot(species_data,
        color = "Region", linetype = "Season", shape = "Season") +
   theme_minimal(base_size = 12)
 
-
 print(plot_separate)
 print(plot_overlay)
+
+
+plot_species <- function(species_name) {
+  
+  species_data <- all_data |>
+    filter(str_to_lower(str_squish(species)) == str_to_lower(species_name)) |>
+    drop_na(count) |>
+    group_by(region, season, year) |>
+    summarise(count = sum(count), .groups = "drop")
+  
+  if (nrow(species_data) == 0) stop("Species not found: ", species_name)
+  
+  ggplot(species_data, aes(x = year, y = count)) +
+    geom_point(color = "steelblue", size = 2) +
+    geom_line(color = "steelblue", alpha = 0.4) +
+    geom_smooth(method = "lm", se = FALSE, color = "firebrick") +
+    facet_grid(season ~ region, scales = "free_x") +
+    labs(title = paste("Count trends:", species_name),
+         x = "Year", y = "Count") +
+    theme_minimal()
+}
+
+print(plot_species("Wood Duck"))
