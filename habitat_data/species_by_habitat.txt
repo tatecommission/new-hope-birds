@@ -1,0 +1,355 @@
+SPECIES BY HABITAT
+
+Scope: named species in the six location/season datasets used for habitat summaries.
+276 distinct named species plus two hybrids. Alternate source spellings are consolidated.
+The lists use primary breeding habitat, including for winter sightings in North Carolina.
+Unidentified birds and summary rows are not assigned to a habitat and are not listed.
+
+Unmarked entries follow Rosenberg et al. (2019), Data S1, Breeding.Biome.
+The original biome is shown in parentheses. Four forest biomes are combined;
+Wetland and Coasts are combined. The other four categories are retained.
+[S] indicates a supplemental project assignment, not a Data S1 habitat assignment.
+[H] indicates a hybrid assigned from the habitats of both parental species.
+
+Primary reference: https://www.science.org/doi/10.1126/science.aaw1313
+Data S1 copy: https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56
+
+FOREST BIRDS (128 entries)
+- "Brewster's" Warbler [H]
+- Acadian Flycatcher (Eastern Forest)
+- Alder Flycatcher (Boreal Forest)
+- American Goldfinch (Forest Generalist)
+- American Redstart (Eastern Forest)
+- American Robin (Forest Generalist)
+- American Woodcock (Eastern Forest)
+- Bachman's Sparrow (Eastern Forest)
+- Baltimore Oriole (Eastern Forest)
+- Barred Owl (Forest Generalist)
+- Bay-breasted Warbler (Boreal Forest)
+- Black-and-white Warbler (Eastern Forest)
+- Black-billed Cuckoo (Eastern Forest)
+- Black-throated Blue Warbler (Boreal Forest)
+- Black-throated Green Warbler (Boreal Forest)
+- Blackburnian Warbler (Boreal Forest)
+- Blackpoll Warbler (Boreal Forest)
+- Blue Grosbeak (Forest Generalist)
+- Blue Jay (Eastern Forest)
+- Blue-headed Vireo (Boreal Forest)
+- Blue-winged Warbler (Eastern Forest)
+- Broad-winged Hawk (Forest Generalist)
+- Brown Creeper (Forest Generalist)
+- Brown Thrasher (Eastern Forest)
+- Brown-headed Nuthatch (Eastern Forest)
+- Canada Warbler (Boreal Forest)
+- Cape May Warbler (Boreal Forest)
+- Carolina Chickadee (Eastern Forest)
+- Carolina Wren (Eastern Forest)
+- Cedar Waxwing (Forest Generalist)
+- Cerulean Warbler (Eastern Forest)
+- Chestnut-sided Warbler (Eastern Forest)
+- Chimney Swift (Eastern Forest)
+- Chipping Sparrow (Forest Generalist)
+- Chuck-will's-widow (Eastern Forest)
+- Connecticut Warbler (Boreal Forest)
+- Cooper's Hawk (Forest Generalist)
+- Dark-eyed Junco (Forest Generalist)
+- Downy Woodpecker (Forest Generalist)
+- Eastern Bluebird (Eastern Forest)
+- Eastern Phoebe (Eastern Forest)
+- Eastern Screech-Owl (Eastern Forest)
+- Eastern Towhee (Eastern Forest)
+- Eastern Whip-poor-will (Eastern Forest)
+- Eastern Wood-Pewee (Eastern Forest)
+- Evening Grosbeak (Boreal Forest)
+- Field Sparrow (Eastern Forest)
+- Fox Sparrow (Forest Generalist)
+- Golden-crowned Kinglet (Forest Generalist)
+- Golden-winged Warbler (Eastern Forest)
+- Gray Catbird (Eastern Forest)
+- Gray Flycatcher (Western Forest)
+- Gray-cheeked Thrush (Boreal Forest)
+- Great Crested Flycatcher (Eastern Forest)
+- Hairy Woodpecker (Forest Generalist)
+- Hermit Thrush (Forest Generalist)
+- Hooded Warbler (Eastern Forest)
+- House Wren (Forest Generalist)
+- Indigo Bunting (Eastern Forest)
+- Kentucky Warbler (Eastern Forest)
+- Least Flycatcher (Eastern Forest)
+- Lincoln's Sparrow (Boreal Forest)
+- Louisiana Waterthrush (Eastern Forest)
+- Magnolia Warbler (Boreal Forest)
+- Mississippi Kite (Eastern Forest)
+- Nashville Warbler (Boreal Forest)
+- Northern Bobwhite (Eastern Forest)
+- Northern Cardinal (Eastern Forest)
+- Northern Flicker (Forest Generalist)
+- Northern Parula (Forest Generalist)
+- Northern Saw-whet Owl (Forest Generalist)
+- Northern Waterthrush (Boreal Forest)
+- Olive-sided Flycatcher (Forest Generalist)
+- Orange-crowned Warbler (Forest Generalist)
+- Orchard Oriole (Eastern Forest)
+- Ovenbird (Eastern Forest)
+- Painted Bunting (Eastern Forest)
+- Palm Warbler (Boreal Forest)
+- Philadelphia Vireo (Boreal Forest)
+- Pileated Woodpecker (Eastern Forest)
+- Pine Siskin (Forest Generalist)
+- Pine Warbler (Eastern Forest)
+- Prairie Warbler (Eastern Forest)
+- Prothonotary Warbler (Eastern Forest)
+- Purple Finch (Forest Generalist)
+- Red Crossbill (Forest Generalist)
+- Red-bellied Woodpecker (Eastern Forest)
+- Red-breasted Nuthatch (Forest Generalist)
+- Red-cockaded Woodpecker (Eastern Forest)
+- Red-eyed Vireo (Forest Generalist)
+- Red-headed Woodpecker (Eastern Forest)
+- Red-shouldered Hawk (Forest Generalist)
+- Rose-breasted Grosbeak (Eastern Forest)
+- Ruby-crowned Kinglet (Boreal Forest)
+- Ruby-throated Hummingbird (Eastern Forest)
+- Ruffed Grouse (Forest Generalist)
+- Rufous Hummingbird (Western Forest)
+- Rusty Blackbird (Boreal Forest)
+- Scarlet Tanager (Eastern Forest)
+- Sharp-shinned Hawk (Forest Generalist)
+- Summer Tanager (Eastern Forest)
+- Swainson's Thrush (Forest Generalist)
+- Swainson's Warbler (Eastern Forest)
+- Swallow-tailed Kite (Eastern Forest)
+- Tennessee Warbler (Boreal Forest)
+- Tufted Titmouse (Eastern Forest)
+- Veery (Forest Generalist)
+- Warbling Vireo (Forest Generalist)
+- Western Tanager (Western Forest)
+- White-breasted Nuthatch (Forest Generalist)
+- White-eyed Vireo (Eastern Forest)
+- White-throated Sparrow (Boreal Forest)
+- White-throated Sparrow x Dark-eyed Junco [H]
+- White-winged Crossbill (Boreal Forest)
+- Wild Turkey (Forest Generalist)
+- Willow Flycatcher (Eastern Forest)
+- Wilson's Warbler (Forest Generalist)
+- Winter Wren (Boreal Forest)
+- Wood Thrush (Eastern Forest)
+- Worm-eating Warbler (Eastern Forest)
+- Yellow Warbler (Forest Generalist)
+- Yellow-bellied Flycatcher (Boreal Forest)
+- Yellow-bellied Sapsucker (Eastern Forest)
+- Yellow-billed Cuckoo (Eastern Forest)
+- Yellow-breasted Chat (Eastern Forest)
+- Yellow-rumped Warbler (Forest Generalist)
+- Yellow-throated Vireo (Eastern Forest)
+- Yellow-throated Warbler (Eastern Forest)
+
+GRASSLAND BIRDS (13 entries)
+- Bobolink (Grassland)
+- Clay-colored Sparrow (Grassland)
+- Dickcissel (Grassland)
+- Eastern Kingbird (Grassland)
+- Eastern Meadowlark (Grassland)
+- Grasshopper Sparrow (Grassland)
+- Henslow's Sparrow (Grassland)
+- Horned Lark (Grassland)
+- Loggerhead Shrike (Grassland)
+- Savannah Sparrow (Grassland)
+- Sedge Wren (Grassland)
+- Upland Sandpiper (Grassland)
+- Vesper Sparrow (Grassland)
+
+ARIDLAND BIRDS (2 entries)
+- Bewick's Wren (Aridlands)
+- White-winged Dove (Aridlands)
+
+WETLAND AND COASTAL BIRDS (74 entries)
+- American Bittern (Wetland)
+- American Black Duck (Wetland)
+- American Coot (Wetland)
+- American White Pelican (Wetland)
+- American Wigeon (Wetland)
+- Anhinga (Wetland)
+- Bald Eagle (Wetland)
+- Belted Kingfisher (Wetland)
+- Black Tern (Wetland)
+- Black-crowned Night-Heron (Wetland)
+- Blue-winged Teal (Wetland)
+- Bonaparte's Gull (Wetland)
+- Bufflehead (Wetland)
+- Canada Goose (Wetland)
+- Canvasback (Wetland)
+- Caspian Tern (Wetland)
+- Cattle Egret (Wetland)
+- Common Gallinule (Wetland)
+- Common Goldeneye (Wetland)
+- Common Loon (Wetland)
+- Common Merganser (Wetland)
+- Common Tern (Wetland)
+- Double-crested Cormorant (Wetland)
+- Eared Grebe (Wetland)
+- Forster's Tern (Wetland)
+- Gadwall (Wetland)
+- Glaucous Gull (Coasts)
+- Glossy Ibis (Wetland)
+- Great Black-backed Gull (Wetland)
+- Great Blue Heron (Wetland)
+- Great Egret (Wetland)
+- Greater Yellowlegs (Wetland)
+- Green Heron (Wetland)
+- Green-winged Teal (Wetland)
+- Herring Gull (Wetland)
+- Hooded Merganser (Wetland)
+- Horned Grebe (Wetland)
+- Iceland Gull [S]
+- King Rail (Wetland)
+- Laughing Gull (Coasts)
+- Least Bittern (Wetland)
+- Least Sandpiper (Wetland)
+- Lesser Black-backed Gull [S]
+- Lesser Scaup (Wetland)
+- Lesser Yellowlegs (Wetland)
+- Little Blue Heron (Wetland)
+- Mallard (Wetland)
+- Marsh Wren (Wetland)
+- Mute Swan [S]
+- Northern Pintail (Wetland)
+- Northern Shoveler (Wetland)
+- Osprey (Wetland)
+- Pied-billed Grebe (Wetland)
+- Red-necked Grebe (Wetland)
+- Redhead (Wetland)
+- Ring-billed Gull (Wetland)
+- Ring-necked Duck (Wetland)
+- Ruddy Duck (Wetland)
+- Short-billed Dowitcher (Wetland)
+- Snowy Egret (Wetland)
+- Solitary Sandpiper (Wetland)
+- Sora (Wetland)
+- Spotted Sandpiper (Wetland)
+- Surf Scoter (Wetland)
+- Swamp Sparrow (Wetland)
+- Tricolored Heron (Wetland)
+- Virginia Rail (Wetland)
+- White Ibis (Wetland)
+- White-winged Scoter (Wetland)
+- Willet (Wetland)
+- Wilson's Plover (Coasts)
+- Wilson's Snipe (Wetland)
+- Wood Duck (Wetland)
+- Yellow-crowned Night-Heron (Coasts)
+
+TUNDRA BIRDS (26 entries)
+- American Pipit (Arctic Tundra)
+- American Tree Sparrow (Arctic Tundra)
+- Black Scoter (Arctic Tundra)
+- Black-bellied Plover (Arctic Tundra)
+- Common Redpoll (Arctic Tundra)
+- Dunlin (Arctic Tundra)
+- Greater Scaup (Arctic Tundra)
+- Greater White-fronted Goose (Arctic Tundra)
+- Harris's Sparrow (Arctic Tundra)
+- Lapland Longspur (Arctic Tundra)
+- Long-tailed Duck (Arctic Tundra)
+- Pectoral Sandpiper (Arctic Tundra)
+- Red Phalarope [S]
+- Red-breasted Merganser (Arctic Tundra)
+- Red-throated Loon (Arctic Tundra)
+- Ross's Goose (Arctic Tundra)
+- Rough-legged Hawk (Arctic Tundra)
+- Ruddy Turnstone (Arctic Tundra)
+- Sanderling (Arctic Tundra)
+- Semipalmated Plover (Arctic Tundra)
+- Semipalmated Sandpiper (Arctic Tundra)
+- Snow Goose (Arctic Tundra)
+- Tundra Swan (Arctic Tundra)
+- Western Sandpiper (Arctic Tundra)
+- Whimbrel (Arctic Tundra)
+- White-rumped Sandpiper (Arctic Tundra)
+
+HABITAT GENERALISTS (35 entries)
+- American Crow (Habitat Generalist)
+- American Kestrel (Habitat Generalist)
+- Bank Swallow (Habitat Generalist)
+- Barn Owl (Habitat Generalist)
+- Barn Swallow (Habitat Generalist)
+- Black Vulture (Habitat Generalist)
+- Blue-gray Gnatcatcher (Habitat Generalist)
+- Brewer's Blackbird (Habitat Generalist)
+- Brown-headed Cowbird (Habitat Generalist)
+- Cliff Swallow (Habitat Generalist)
+- Common Grackle (Habitat Generalist)
+- Common Nighthawk (Habitat Generalist)
+- Common Raven (Habitat Generalist)
+- Common Yellowthroat (Habitat Generalist)
+- European Starling [S]
+- Fish Crow (Habitat Generalist)
+- Great Horned Owl (Habitat Generalist)
+- House Finch (Habitat Generalist)
+- House Sparrow [S]
+- Killdeer (Habitat Generalist)
+- Merlin (Habitat Generalist)
+- Mourning Dove (Habitat Generalist)
+- Northern Harrier (Habitat Generalist)
+- Northern Mockingbird (Habitat Generalist)
+- Northern Rough-winged Swallow (Habitat Generalist)
+- Peregrine Falcon (Habitat Generalist)
+- Purple Martin (Habitat Generalist)
+- Red-tailed Hawk (Habitat Generalist)
+- Red-winged Blackbird (Habitat Generalist)
+- Rock Pigeon [S]
+- Short-eared Owl (Habitat Generalist)
+- Song Sparrow (Habitat Generalist)
+- Tree Swallow (Habitat Generalist)
+- Turkey Vulture (Habitat Generalist)
+- White-crowned Sparrow (Habitat Generalist)
+
+SUPPLEMENTAL AND HYBRID ASSIGNMENTS
+
+"Brewster's" Warbler -> Forest birds
+  Basis: Hybrid of Blue-winged and Golden-winged Warblers; both parents assigned Eastern Forest in Data S1
+  Source: https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56
+
+European Starling -> Habitat generalists
+  Basis: Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment
+  Source: https://www.allaboutbirds.org/guide/European_Starling/lifehistory
+
+House Sparrow -> Habitat generalists
+  Basis: Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment
+  Source: https://www.allaboutbirds.org/guide/House_Sparrow/lifehistory
+
+Iceland Gull -> Wetland and coastal birds
+  Basis: Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment
+  Source: https://www.allaboutbirds.org/guide/Iceland_Gull/lifehistory
+
+Lesser Black-backed Gull -> Wetland and coastal birds
+  Basis: Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment
+  Source: https://www.allaboutbirds.org/guide/Lesser_Black-backed_Gull/lifehistory
+
+Mute Swan -> Wetland and coastal birds
+  Basis: Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment
+  Source: https://www.allaboutbirds.org/guide/Mute_Swan/lifehistory
+
+Red Phalarope -> Tundra birds
+  Basis: Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment
+  Source: https://www.allaboutbirds.org/guide/Red_Phalarope/lifehistory
+
+Rock Pigeon -> Habitat generalists
+  Basis: Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment
+  Source: https://www.allaboutbirds.org/guide/Rock_Pigeon/lifehistory
+
+White-throated Sparrow x Dark-eyed Junco -> Forest birds
+  Basis: Both parental species are forest birds in Data S1
+  Source: https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56
+
+The study gives the introduced species an Introduced label, rather than one
+of its ten habitat labels. Mute Swan is assigned to wetlands/coasts; European
+Starling, House Sparrow, and Rock Pigeon to habitat generalists, including
+human-modified environments. The generalist placements are project conventions.
+Iceland Gull and Lesser Black-backed Gull use coastal breeding habitats;
+Red Phalarope breeds on tundra. These three are absent from Data S1.
+Brewster's Warbler parents: Blue-winged Warbler and Golden-winged Warbler.
+The other hybrid's parents are White-throated Sparrow and Dark-eyed Junco.
+
+For every original source label and alias, see r-files/habitat_species_mapping.json.
+For unidentified records and missing counts, see r-files/habitat_data_audit.json.

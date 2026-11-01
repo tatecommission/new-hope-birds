@@ -1,0 +1,2632 @@
+{
+  "\"Brewster's\" Warbler": {
+    "species": "\"Brewster's\" Warbler",
+    "biome": null,
+    "habitat": "forest_birds",
+    "basis": "Hybrid of Blue-winged and Golden-winged Warblers; both parents assigned Eastern Forest in Data S1",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Acadian Flycatcher": {
+    "species": "Acadian Flycatcher",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Accipiter sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Alder Flycatcher": {
+    "species": "Alder Flycatcher",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Bittern": {
+    "species": "American Bittern",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Black Duck": {
+    "species": "American Black Duck",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Coot": {
+    "species": "American Coot",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Crow": {
+    "species": "American Crow",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Goldfinch": {
+    "species": "American Goldfinch",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Kestrel": {
+    "species": "American Kestrel",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Pipit": {
+    "species": "American Pipit",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Redstart": {
+    "species": "American Redstart",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Robin": {
+    "species": "American Robin",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Tree Sparrow": {
+    "species": "American Tree Sparrow",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American White Pelican": {
+    "species": "American White Pelican",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Widgeon": {
+    "species": "American Wigeon",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Wigeon": {
+    "species": "American Wigeon",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "American Woodcock": {
+    "species": "American Woodcock",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Anhinga": {
+    "species": "Anhinga",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "BARN OWL": {
+    "species": "Barn Owl",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "BLACK-THROATED BLUE WARBLER": {
+    "species": "Black-throated Blue Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "BLUE GROSBEAK": {
+    "species": "Blue Grosbeak",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Bachman's Sparrow": {
+    "species": "Bachman's Sparrow",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Bald Eagle": {
+    "species": "Bald Eagle",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Baltimore Oriole": {
+    "species": "Baltimore Oriole",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Bank Swallow": {
+    "species": "Bank Swallow",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Barn Owl": {
+    "species": "Barn Owl",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Barn Swallow": {
+    "species": "Barn Swallow",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Barred Owl": {
+    "species": "Barred Owl",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Bay-breasted Warbler": {
+    "species": "Bay-breasted Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Belted Kingfisher": {
+    "species": "Belted Kingfisher",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Bewick's Wren": {
+    "species": "Bewick's Wren",
+    "biome": "Aridlands",
+    "habitat": "aridland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black Scoter": {
+    "species": "Black Scoter",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black Tern": {
+    "species": "Black Tern",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black Vulture": {
+    "species": "Black Vulture",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-and-White Warbler": {
+    "species": "Black-and-white Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-and-white Warbler": {
+    "species": "Black-and-white Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-bellied Plover": {
+    "species": "Black-bellied Plover",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-billed Cuckoo": {
+    "species": "Black-billed Cuckoo",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-cn. Night Heron": {
+    "species": "Black-crowned Night-Heron",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-crowned Night Heron": {
+    "species": "Black-crowned Night-Heron",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-crowned Night-Heron": {
+    "species": "Black-crowned Night-Heron",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-th. Blue Warbler": {
+    "species": "Black-throated Blue Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-th. Green Warbler": {
+    "species": "Black-throated Green Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-thr Blue Warbler": {
+    "species": "Black-throated Blue Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-thr Green Warbler": {
+    "species": "Black-throated Green Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-throated Blue Warbler": {
+    "species": "Black-throated Blue Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Black-throated Green Warbler": {
+    "species": "Black-throated Green Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Blackbird sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Blackburnian Warbler": {
+    "species": "Blackburnian Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Blackpoll Warbler": {
+    "species": "Blackpoll Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Blue Grosbeak": {
+    "species": "Blue Grosbeak",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Blue Jay": {
+    "species": "Blue Jay",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Blue-gray Gnatcatcher": {
+    "species": "Blue-gray Gnatcatcher",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Blue-headed Vireo": {
+    "species": "Blue-headed Vireo",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Blue-winged Teal": {
+    "species": "Blue-winged Teal",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Blue-winged Warbler": {
+    "species": "Blue-winged Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Bobolink": {
+    "species": "Bobolink",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Bonaparte's Gull": {
+    "species": "Bonaparte's Gull",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Brewer's Blackbird": {
+    "species": "Brewer's Blackbird",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Broad-winged Hawk": {
+    "species": "Broad-winged Hawk",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Brown Creeper": {
+    "species": "Brown Creeper",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Brown Thrasher": {
+    "species": "Brown Thrasher",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Brown-headed Cowbird": {
+    "species": "Brown-headed Cowbird",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Brown-headed Nuthatch": {
+    "species": "Brown-headed Nuthatch",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Bufflehead": {
+    "species": "Bufflehead",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Buteo sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "CAPE MAY WARBLER": {
+    "species": "Cape May Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "CHESTNUT-SIDED WARBLER": {
+    "species": "Chestnut-sided Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "COMMON GALLINULE": {
+    "species": "Common Gallinule",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "COMMON RAVEN": {
+    "species": "Common Raven",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Canada Goose": {
+    "species": "Canada Goose",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Canada Warbler": {
+    "species": "Canada Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Canvasback": {
+    "species": "Canvasback",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Cape May Warbler": {
+    "species": "Cape May Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Cape MayWarbler": {
+    "species": "Cape May Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Carolina Chickadee": {
+    "species": "Carolina Chickadee",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Carolina Wren": {
+    "species": "Carolina Wren",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Caspian Tern": {
+    "species": "Caspian Tern",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Cattle Egret": {
+    "species": "Cattle Egret",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Cedar Waxwing": {
+    "species": "Cedar Waxwing",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Cerulean Warbler": {
+    "species": "Cerulean Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Chestnut-sided Warbler": {
+    "species": "Chestnut-sided Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Chimney Swift": {
+    "species": "Chimney Swift",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Chipping Sparrow": {
+    "species": "Chipping Sparrow",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Chuck-Will's-Widow": {
+    "species": "Chuck-will's-widow",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Chuck-will's-widow": {
+    "species": "Chuck-will's-widow",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Chuck-wills-widow": {
+    "species": "Chuck-will's-widow",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Clay-colored Sparrow": {
+    "species": "Clay-colored Sparrow",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Cliff Swallow": {
+    "species": "Cliff Swallow",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Common Gallinule": {
+    "species": "Common Gallinule",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Common Goldeneye": {
+    "species": "Common Goldeneye",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Common Grackle": {
+    "species": "Common Grackle",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Common Loon": {
+    "species": "Common Loon",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Common Merganser": {
+    "species": "Common Merganser",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Common Moorhen": {
+    "species": "Common Gallinule",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Common Nighthawk": {
+    "species": "Common Nighthawk",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Common Raven": {
+    "species": "Common Raven",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Common Redpoll": {
+    "species": "Common Redpoll",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Common Tern": {
+    "species": "Common Tern",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Common Yellowthroat": {
+    "species": "Common Yellowthroat",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Connecticut Warbler": {
+    "species": "Connecticut Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Cooper's Hawk": {
+    "species": "Cooper's Hawk",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Crow sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "DICKCISSEL": {
+    "species": "Dickcissel",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "DUNLIN": {
+    "species": "Dunlin",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Dark-eyed \"Slate-colored\" Junco": {
+    "species": "Dark-eyed Junco",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Dark-eyed Junco": {
+    "species": "Dark-eyed Junco",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Double-crested Cormorant": {
+    "species": "Double-crested Cormorant",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Dowitcher sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Downy Woodpecker": {
+    "species": "Downy Woodpecker",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Duck sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Dunlin": {
+    "species": "Dunlin",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Eared Grebe": {
+    "species": "Eared Grebe",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Eastern Bluebird": {
+    "species": "Eastern Bluebird",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Eastern Kingbird": {
+    "species": "Eastern Kingbird",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Eastern Meadowlark": {
+    "species": "Eastern Meadowlark",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Eastern Pheobe": {
+    "species": "Eastern Phoebe",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Eastern Phoebe": {
+    "species": "Eastern Phoebe",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Eastern Screech Owl": {
+    "species": "Eastern Screech-Owl",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Eastern Screech-Owl": {
+    "species": "Eastern Screech-Owl",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Eastern Towhee": {
+    "species": "Eastern Towhee",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Eastern Whip-poor-will": {
+    "species": "Eastern Whip-poor-will",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Eastern Wood-Pewee": {
+    "species": "Eastern Wood-Pewee",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Empidonax sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "European Starling": {
+    "species": "European Starling",
+    "biome": "Introduced",
+    "habitat": "habitat_generalists",
+    "basis": "Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment",
+    "source": "https://www.allaboutbirds.org/guide/European_Starling/lifehistory"
+  },
+  "Evening Grosbeak": {
+    "species": "Evening Grosbeak",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "FISH CROW": {
+    "species": "Fish Crow",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Falcon sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Field Sparrow": {
+    "species": "Field Sparrow",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Fish Crow": {
+    "species": "Fish Crow",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Flycatcher sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Forster's Tern": {
+    "species": "Forster's Tern",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Fox Sparrow": {
+    "species": "Fox Sparrow",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "GLOSSY IBIS": {
+    "species": "Glossy Ibis",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "GREATER YELLOWLEGS": {
+    "species": "Greater Yellowlegs",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Gadwall": {
+    "species": "Gadwall",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Glaucous Gull": {
+    "species": "Glaucous Gull",
+    "biome": "Coasts",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Glossy Ibis": {
+    "species": "Glossy Ibis",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Golden-crowned Kinglet": {
+    "species": "Golden-crowned Kinglet",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Golden-winged Warbler": {
+    "species": "Golden-winged Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Grasshopper Sparrow": {
+    "species": "Grasshopper Sparrow",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Gray Catbird": {
+    "species": "Gray Catbird",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Gray Flycatcher": {
+    "species": "Gray Flycatcher",
+    "biome": "Western Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Gray-cheeked Thrush": {
+    "species": "Gray-cheeked Thrush",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Great Black-backed Gull": {
+    "species": "Great Black-backed Gull",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Great Blue Heron": {
+    "species": "Great Blue Heron",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Great Crested Flycatcher": {
+    "species": "Great Crested Flycatcher",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Great Egret": {
+    "species": "Great Egret",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Great Horned Owl": {
+    "species": "Great Horned Owl",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Greater Scaup": {
+    "species": "Greater Scaup",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Greater Yellowlegs": {
+    "species": "Greater Yellowlegs",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Green Heron": {
+    "species": "Green Heron",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Green-winged Teal": {
+    "species": "Green-winged Teal",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Gull sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Hairy Woodpecker": {
+    "species": "Hairy Woodpecker",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Harris's Sparrow": {
+    "species": "Harris's Sparrow",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Hawk sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Henslow's Sparrow": {
+    "species": "Henslow's Sparrow",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Hermit Thrush": {
+    "species": "Hermit Thrush",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Herring Gull": {
+    "species": "Herring Gull",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Hooded Merganser": {
+    "species": "Hooded Merganser",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Hooded Warbler": {
+    "species": "Hooded Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Horned Grebe": {
+    "species": "Horned Grebe",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Horned Lark": {
+    "species": "Horned Lark",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "House Finch": {
+    "species": "House Finch",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "House Sparrow": {
+    "species": "House Sparrow",
+    "biome": "Introduced",
+    "habitat": "habitat_generalists",
+    "basis": "Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment",
+    "source": "https://www.allaboutbirds.org/guide/House_Sparrow/lifehistory"
+  },
+  "House Wren": {
+    "species": "House Wren",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Hummingbird sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Ibis sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Iceland Gull": {
+    "species": "Iceland Gull",
+    "biome": null,
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment",
+    "source": "https://www.allaboutbirds.org/guide/Iceland_Gull/lifehistory"
+  },
+  "Indigo Bunting": {
+    "species": "Indigo Bunting",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "KING RAIL": {
+    "species": "King Rail",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Kentucky Warbler": {
+    "species": "Kentucky Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Killdeer": {
+    "species": "Killdeer",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "King Rail": {
+    "species": "King Rail",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Kinglet sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "LAPLAND LONGSPUR": {
+    "species": "Lapland Longspur",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "LESSER YELLOWLEGS": {
+    "species": "Lesser Yellowlegs",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "LINCOLN'S SPARROW": {
+    "species": "Lincoln's Sparrow",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "LOUISIANA WATERTHRUSH": {
+    "species": "Louisiana Waterthrush",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Laughing Gull": {
+    "species": "Laughing Gull",
+    "biome": "Coasts",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Least Bittern": {
+    "species": "Least Bittern",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Least Flycatcher": {
+    "species": "Least Flycatcher",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Least Sandpiper": {
+    "species": "Least Sandpiper",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Lesser Black-backed Gull": {
+    "species": "Lesser Black-backed Gull",
+    "biome": null,
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment",
+    "source": "https://www.allaboutbirds.org/guide/Lesser_Black-backed_Gull/lifehistory"
+  },
+  "Lesser Scaup": {
+    "species": "Lesser Scaup",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Lesser Yellowlegs": {
+    "species": "Lesser Yellowlegs",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Lincoln's Sparrow": {
+    "species": "Lincoln's Sparrow",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Little Blue Heron": {
+    "species": "Little Blue Heron",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Loggerhead Shrike": {
+    "species": "Loggerhead Shrike",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Long-tailed Duck": {
+    "species": "Long-tailed Duck",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Louisiana Waterthrush": {
+    "species": "Louisiana Waterthrush",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Magnolia Warbler": {
+    "species": "Magnolia Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Mallard": {
+    "species": "Mallard",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Marsh Wren": {
+    "species": "Marsh Wren",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Merlin": {
+    "species": "Merlin",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Mississippi Kite": {
+    "species": "Mississippi Kite",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Mourning Dove": {
+    "species": "Mourning Dove",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Mute Swan": {
+    "species": "Mute Swan",
+    "biome": "Introduced",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment",
+    "source": "https://www.allaboutbirds.org/guide/Mute_Swan/lifehistory"
+  },
+  "N ROUGH-WINGED SWALLOW": {
+    "species": "Northern Rough-winged Swallow",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "N. Rough-winged Swallow": {
+    "species": "Northern Rough-winged Swallow",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "N. SAW-WHET OWL": {
+    "species": "Northern Saw-whet Owl",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "NORTHERN PARULA": {
+    "species": "Northern Parula",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Nashville Warbler": {
+    "species": "Nashville Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Night-Heron sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Northern \"Yellow-shafted\" Flicker": {
+    "species": "Northern Flicker",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Northern Bobwhite": {
+    "species": "Northern Bobwhite",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Northern Cardinal": {
+    "species": "Northern Cardinal",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Northern Flicker": {
+    "species": "Northern Flicker",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Northern Harrier": {
+    "species": "Northern Harrier",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Northern Mockingbird": {
+    "species": "Northern Mockingbird",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Northern Parula": {
+    "species": "Northern Parula",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Northern Pintail": {
+    "species": "Northern Pintail",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Northern Shoveler": {
+    "species": "Northern Shoveler",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Northern Waterthrush": {
+    "species": "Northern Waterthrush",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Olive-sided Flycatcher": {
+    "species": "Olive-sided Flycatcher",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Orange-crowned Warbler": {
+    "species": "Orange-crowned Warbler",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Orchard Oriole": {
+    "species": "Orchard Oriole",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Osprey": {
+    "species": "Osprey",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Ovenbird": {
+    "species": "Ovenbird",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Owl sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "PECTORAL SANDPIPER": {
+    "species": "Pectoral Sandpiper",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "PEREGRINE FALCON": {
+    "species": "Peregrine Falcon",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Palm Warbler": {
+    "species": "Palm Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Party Species": {
+    "species": null,
+    "habitat": null,
+    "basis": "Excluded non-species summary/header row"
+  },
+  "Pectoral Sandpiper": {
+    "species": "Pectoral Sandpiper",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Peregrine Falcon": {
+    "species": "Peregrine Falcon",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Philadelphia Vireo": {
+    "species": "Philadelphia Vireo",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Pied-billed Grebe": {
+    "species": "Pied-billed Grebe",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Pileated Woodpecker": {
+    "species": "Pileated Woodpecker",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Pine Siskin": {
+    "species": "Pine Siskin",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Pine Warbler": {
+    "species": "Pine Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Prairie Warbler": {
+    "species": "Prairie Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Prothonotary Warbler": {
+    "species": "Prothonotary Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Purple Finch": {
+    "species": "Purple Finch",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Purple Martin": {
+    "species": "Purple Martin",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "PurpleFinch": {
+    "species": "Purple Finch",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "RARER SPECIES": {
+    "species": null,
+    "habitat": null,
+    "basis": "Excluded non-species summary/header row"
+  },
+  "ROUGH-LEGGED HAWK": {
+    "species": "Rough-legged Hawk",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "RUBY-THROATED HUMMINGBIRD": {
+    "species": "Ruby-throated Hummingbird",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "RUFOUS HUMMINGBIRD": {
+    "species": "Rufous Hummingbird",
+    "biome": "Western Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Rail sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Red Crossbill": {
+    "species": "Red Crossbill",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red-bellied Woodpecker": {
+    "species": "Red-bellied Woodpecker",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red-breasted Merganser": {
+    "species": "Red-breasted Merganser",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red-breasted Nuthatch": {
+    "species": "Red-breasted Nuthatch",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red-cockaded Woodpecker": {
+    "species": "Red-cockaded Woodpecker",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red-eyed Vireo": {
+    "species": "Red-eyed Vireo",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red-headed Woodpecker": {
+    "species": "Red-headed Woodpecker",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red-necked Grebe": {
+    "species": "Red-necked Grebe",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red-shouldered Hawk": {
+    "species": "Red-shouldered Hawk",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red-tailed Hawk": {
+    "species": "Red-tailed Hawk",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red-throated Loon": {
+    "species": "Red-throated Loon",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red-winged Blackbird": {
+    "species": "Red-winged Blackbird",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Redhead": {
+    "species": "Redhead",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Ring-billed Gull": {
+    "species": "Ring-billed Gull",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Ring-necked Duck": {
+    "species": "Ring-necked Duck",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Rock Pigeon": {
+    "species": "Rock Pigeon",
+    "biome": "Introduced",
+    "habitat": "habitat_generalists",
+    "basis": "Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment",
+    "source": "https://www.allaboutbirds.org/guide/Rock_Pigeon/lifehistory"
+  },
+  "Rose-breasted Grosbeak": {
+    "species": "Rose-breasted Grosbeak",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Rough-legged Hawk": {
+    "species": "Rough-legged Hawk",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Ruby-crowned Kinglet": {
+    "species": "Ruby-crowned Kinglet",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Ruby-th. Hummingbird": {
+    "species": "Ruby-throated Hummingbird",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Ruby-thr Hummingbird": {
+    "species": "Ruby-throated Hummingbird",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Ruby-throated Hummingbird": {
+    "species": "Ruby-throated Hummingbird",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Ruddy Duck": {
+    "species": "Ruddy Duck",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Ruddy Turnstone": {
+    "species": "Ruddy Turnstone",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Ruffed Grouse": {
+    "species": "Ruffed Grouse",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Rufous/Allen's Hummingbird": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Rusty Blackbird": {
+    "species": "Rusty Blackbird",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "SHORT-EARED OWL": {
+    "species": "Short-eared Owl",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "SPOTTED SANDPIPER": {
+    "species": "Spotted Sandpiper",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Sanderling": {
+    "species": "Sanderling",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Sandpiper sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Savannah Sparrow": {
+    "species": "Savannah Sparrow",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Scarlet Tanager": {
+    "species": "Scarlet Tanager",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Scaup sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Sedge Wren": {
+    "species": "Sedge Wren",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Semipalmated Plover": {
+    "species": "Semipalmated Plover",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Semipalmated Sandpiper": {
+    "species": "Semipalmated Sandpiper",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Sharp-shinned Hawk": {
+    "species": "Sharp-shinned Hawk",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Short-billed Dowitcher": {
+    "species": "Short-billed Dowitcher",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Short-eared Owl": {
+    "species": "Short-eared Owl",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Snow Goose": {
+    "species": "Snow Goose",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Snowy Egret": {
+    "species": "Snowy Egret",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Solitary Sandpiper": {
+    "species": "Solitary Sandpiper",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Song Sparrow": {
+    "species": "Song Sparrow",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Sora": {
+    "species": "Sora",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Sparrow sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Spotted Sandpiper": {
+    "species": "Spotted Sandpiper",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Summer Tanager": {
+    "species": "Summer Tanager",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Surf Scoter": {
+    "species": "Surf Scoter",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Swainson's Thrush": {
+    "species": "Swainson's Thrush",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Swainson's Warbler": {
+    "species": "Swainson's Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Swallow sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Swallow-tailed Kite": {
+    "species": "Swallow-tailed Kite",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Swamp Sparrow": {
+    "species": "Swamp Sparrow",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Tennessee Warbler": {
+    "species": "Tennessee Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Tern sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Thrush sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Tree Swallow": {
+    "species": "Tree Swallow",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Tri-Colored Heron": {
+    "species": "Tricolored Heron",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Tri-colored Heron": {
+    "species": "Tricolored Heron",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Tricolored Heron": {
+    "species": "Tricolored Heron",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Tufted Titmouse": {
+    "species": "Tufted Titmouse",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Tundra Swan": {
+    "species": "Tundra Swan",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Turkey Vulture": {
+    "species": "Turkey Vulture",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Umidentified Finch": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Accipiter": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Blackbird": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Buteo": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Duck": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Goose": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Gull": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Hawk": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Kinglet": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Loon": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Merganser": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Nuthatch": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Scaup": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Sparrow": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Tern": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified sandpiper": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified vulture": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Upland Sandpiper": {
+    "species": "Upland Sandpiper",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "VIRGINIA RAIL": {
+    "species": "Virginia Rail",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Veery": {
+    "species": "Veery",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Vesper  Sparrow": {
+    "species": "Vesper Sparrow",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Vesper Sparrow": {
+    "species": "Vesper Sparrow",
+    "biome": "Grassland",
+    "habitat": "grassland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Virginia Rail": {
+    "species": "Virginia Rail",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Virgnia Rail": {
+    "species": "Virginia Rail",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "WHITE-EYED VIREO": {
+    "species": "White-eyed Vireo",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "WILLOW FLYCATCHER": {
+    "species": "Willow Flycatcher",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Warbling Vireo": {
+    "species": "Warbling Vireo",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Waterthrush sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Western Sandpiper": {
+    "species": "Western Sandpiper",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Western Tanager": {
+    "species": "Western Tanager",
+    "biome": "Western Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Whimbrel": {
+    "species": "Whimbrel",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Whip-Poor-Will": {
+    "species": "Eastern Whip-poor-will",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Whip-poor-will": {
+    "species": "Eastern Whip-poor-will",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "White Ibis": {
+    "species": "White Ibis",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "White-breasted Nuthatch": {
+    "species": "White-breasted Nuthatch",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "White-crowned Sparrow": {
+    "species": "White-crowned Sparrow",
+    "biome": "Habitat Generalist",
+    "habitat": "habitat_generalists",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "White-eyed Vireo": {
+    "species": "White-eyed Vireo",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "White-rumped Sandpiper": {
+    "species": "White-rumped Sandpiper",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "White-throated Sparrow": {
+    "species": "White-throated Sparrow",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "White-winged Crossbill": {
+    "species": "White-winged Crossbill",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "White-winged Scoter": {
+    "species": "White-winged Scoter",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Wild Turkey": {
+    "species": "Wild Turkey",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Willet": {
+    "species": "Willet",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Willow Flycatcher": {
+    "species": "Willow Flycatcher",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Wilson's Plover": {
+    "species": "Wilson's Plover",
+    "biome": "Coasts",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Wilson's Snipe": {
+    "species": "Wilson's Snipe",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Wilson's Warbler": {
+    "species": "Wilson's Warbler",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Winter Wren": {
+    "species": "Winter Wren",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Wood Duck": {
+    "species": "Wood Duck",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Wood Thrush": {
+    "species": "Wood Thrush",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Worm-eating Warbler": {
+    "species": "Worm-eating Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "YELLOW-BREASTED CHAT": {
+    "species": "Yellow-breasted Chat",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow Warbler": {
+    "species": "Yellow Warbler",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow-bellied Flycatcher": {
+    "species": "Yellow-bellied Flycatcher",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow-bellied Sapsucker": {
+    "species": "Yellow-bellied Sapsucker",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow-billed Cuckoo": {
+    "species": "Yellow-billed Cuckoo",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow-breasted Chat": {
+    "species": "Yellow-breasted Chat",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow-cn. Night Heron": {
+    "species": "Yellow-crowned Night-Heron",
+    "biome": "Coasts",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow-crowned Night Heron": {
+    "species": "Yellow-crowned Night-Heron",
+    "biome": "Coasts",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow-crowned Night-Heron": {
+    "species": "Yellow-crowned Night-Heron",
+    "biome": "Coasts",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow-rumped (Myrtle) Warbler": {
+    "species": "Yellow-rumped Warbler",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow-rumped Warbler": {
+    "species": "Yellow-rumped Warbler",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow-throated Vireo": {
+    "species": "Yellow-throated Vireo",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellow-throated Warbler": {
+    "species": "Yellow-throated Warbler",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "YellowWarbler": {
+    "species": "Yellow Warbler",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Yellowlegs sp": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Greater White-fronted Goose": {
+    "species": "Greater White-fronted Goose",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Ross Goose": {
+    "species": "Ross's Goose",
+    "biome": "Arctic Tundra",
+    "habitat": "tundra_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "White-winged Dove": {
+    "species": "White-winged Dove",
+    "biome": "Aridlands",
+    "habitat": "aridland_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Rufous Hummingbird": {
+    "species": "Rufous Hummingbird",
+    "biome": "Western Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Red Phalarope": {
+    "species": "Red Phalarope",
+    "biome": null,
+    "habitat": "tundra_birds",
+    "basis": "Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment",
+    "source": "https://www.allaboutbirds.org/guide/Red_Phalarope/lifehistory"
+  },
+  "L. black-back Gull": {
+    "species": "Lesser Black-backed Gull",
+    "biome": null,
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Supplementary project assignment based on Cornell habitat account; not a Data S1 habitat assignment",
+    "source": "https://www.allaboutbirds.org/guide/Lesser_Black-backed_Gull/lifehistory"
+  },
+  "G. Black-back Gull": {
+    "species": "Great Black-backed Gull",
+    "biome": "Wetland",
+    "habitat": "wetland_and_coastal_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "White-winged  Crossbill": {
+    "species": "White-winged Crossbill",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Orange-crowned  Warbler": {
+    "species": "Orange-crowned Warbler",
+    "biome": "Forest Generalist",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Bk-throat Blue Warbler": {
+    "species": "Black-throated Blue Warbler",
+    "biome": "Boreal Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Painted Bunting": {
+    "species": "Painted Bunting",
+    "biome": "Eastern Forest",
+    "habitat": "forest_birds",
+    "basis": "Data S1 breeding biome",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Unidentified Yellowlegs": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Wt-throated Spar. X D-e Junco": {
+    "species": "White-throated Sparrow x Dark-eyed Junco",
+    "biome": null,
+    "habitat": "forest_birds",
+    "basis": "Both parental species are forest birds in Data S1",
+    "source": "https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf#page=56"
+  },
+  "Unidentified Vulture": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Woodpecker": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Falcon": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  },
+  "Unidentified Passerine": {
+    "species": null,
+    "habitat": null,
+    "basis": "Unresolved identification; excluded from habitat sums and retained in audit"
+  }
+}
