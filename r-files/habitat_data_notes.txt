@@ -1,0 +1,97 @@
+HABITAT DATA
+
+Six CSVs in ../habitat_data, one per location and season. Each contains six
+habitat rows, with the original survey years as columns. Values are sums of
+available numeric bird counts, not species richness or effort-adjusted estimates.
+
+chapel_hill_spring_habitat.csv: 1952-2024, 68 surveyed years.
+chapel_hill_winter_habitat.csv: 1923-2023, 93 surveyed years.
+durham_spring_habitat.csv: 1974-2022, 49 surveyed years.
+durham_winter_habitat.csv: 1968-2023, 55 surveyed years (1972 absent).
+jordan_lake_spring_habitat.csv: 1977-2022, 46 surveyed years.
+jordan_lake_winter_habitat.csv: 1977-2021, 45 surveyed years.
+Jordan Lake winter preserves its source's start-year convention: 2021 is 2021-22.
+No missing years are interpolated or inserted.
+
+REBUILD IN R
+From the project root, run:
+  Rscript r-files/build-habitat-data.R
+Dependency: jsonlite. Install once if necessary: install.packages("jsonlite").
+The R script performs source import, annual count extraction, classification,
+aggregation, reconciliation, CSV export, and saved-file validation. It reads
+habitat_species_mapping.json for assignments, aliases, and source citations.
+All original input files remain unchanged.
+
+HABITAT GROUPS
+Forest birds: Eastern Forest, Western Forest, Boreal Forest, Forest Generalist.
+Grassland birds: Grassland.
+Aridland birds: Aridlands.
+Wetland and coastal birds: Wetland and Coasts.
+Tundra birds: Arctic Tundra.
+Habitat generalists: Habitat Generalist.
+
+Assignments describe primary breeding habitat, even for local winter counts.
+The principal reference is Rosenberg et al. (2019), Data S1, reproduced in the
+Cornell-hosted paper and supplement:
+https://www.science.org/doi/10.1126/science.aaw1313
+https://www.birds.cornell.edu/home/wp-content/uploads/2019/09/DECLINE-OF-NORTH-AMERICAN-AVIFAUNA-SCIENCE-2019.pdf
+
+All named species are assigned: 276 distinct named species and two hybrid labels.
+The mapping retains original source labels and standardized names. Explicit
+aliases handle capitalization, punctuation, spelling, obsolete names, and
+subspecies labels. Alias rows are combined across years; overlapping positive
+counts for aliases of the same species/year cause an error rather than being
+silently double-counted.
+
+SUPPLEMENTARY ASSIGNMENTS
+The study labels Mute Swan, European Starling, House Sparrow, and Rock Pigeon
+as Introduced instead of assigning one of the ten breeding biomes. Project
+assignments place Mute Swan in wetland/coastal and the other three in habitat
+generalists, including birds of human-modified environments.
+Iceland Gull and Lesser Black-backed Gull, absent from Data S1, are assigned to
+wetland/coastal based on coastal breeding habitats. Red Phalarope, also absent
+from Data S1, is assigned to tundra based on its breeding habitat. These seven
+choices use Cornell All About Birds accounts linked in the mapping; they are
+project assignments rather than published Data S1 classifications.
+Brewster's Warbler is assigned to forest because both parental species are
+Eastern Forest birds. The White-throated Sparrow x Dark-eyed Junco hybrid is
+also assigned to forest because both parents belong to that group in Data S1.
+
+DURHAM WINTER PREPARATION
+There is no existing Durham winter final CSV, so the R script prepares this
+dataset directly from Durham-1968-2023-winter.xlsx - DURCBC.csv in memory.
+Headers are in row 4, annual counts in columns E:BG, and bird records in rows
+6:183 (blank species-name rows omitted). Later summary, effort, weather, formula,
+duplicate recent-year, and statistical columns/rows are not bird observations.
+Blank annual count cells become zero, consistent with the other cleaned winter
+datasets. * and x markers remain unknown counts. The main species list and
+additional unidentified/hybrid records are retained for classification/audit.
+The original large counts, including 1,000,000 Red-winged Blackbirds in 1971,
+are preserved without adjustment; these outliers strongly affect annual totals.
+
+MISSING COUNTS AND EXCLUSIONS
+Numeric zeros are preserved. NA, N/A, blank values in existing finals, *, ?, and
+x are not invented as numeric counts. Partial sums use available numeric values.
+If all assigned species in a habitat/year are missing, the result is NA; if no
+species are assigned to that group, it is zero.
+The audit's habitat_coverage records numeric/missing/marked species counts for
+every habitat/year, so incomplete sums can be identified. Twenty original
+marker cells are recorded in non_numeric_records.
+Existing Chapel Hill and Jordan Lake cleaning already converted some blank and
+count-week values to zero; the habitat outputs preserve those prior decisions.
+
+48 unresolved labels, including unidentified taxa and Rufous/Allen's Hummingbird,
+are excluded from habitat sums. Unknown identity is not evidence of habitat
+generalism. Their 814,990 numeric observations across files/years are retained
+in the audit, including large Durham winter unidentified-blackbird flocks.
+Party Species and RARER SPECIES are non-species rows; their 14,315 numeric
+entries are excluded and recorded separately. No seventh habitat is invented.
+
+VALIDATION
+habitat_data_audit.json records source checksums, preparation steps, original
+excluded labels and annual values, nonnumeric markers, missing-data coverage,
+and annual reconciliations. All 356 source-year totals reconcile:
+  habitat numeric sum + excluded numeric sum = input numeric sum.
+Across all files and years, 6,361,905 numeric observations are assigned to
+habitats. These are repeated survey observations, not distinct individual birds.
+Every exported CSV is reread and checked against the R calculation.
