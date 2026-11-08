@@ -1,0 +1,129 @@
+---
+title: "New Hope Bird Alliance - Habitat Trend Lines"
+subtitle: "Observed bird counts by location and season, 1980 onward"
+format: pdf
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+This document uses **only Joel's six habitat CSV files** in `habitat_data/`. Each graph shows observed annual counts (points) and a smooth descriptive trend for each habitat (lines). The curves are not adjusted for survey effort and are not estimates of true population size.
+
+Save this `.qmd` file in the **main repository folder**, next to `new-hope-birds.Rproj`. You can run chunks individually using the green arrows, or click **Render** to generate the full report.
+
+## 1. Load packages and set colors
+
+```{r}
+library(tidyverse)
+
+start_year <- 1980
+habitat_colors <- c(
+  "Forest birds" = "#009E73",
+  "Grassland birds" = "#E69F00",
+  "Aridland birds" = "#D55E00",
+  "Wetland and coastal birds" = "#0072B2",
+  "Tundra birds" = "#CC79A7",
+  "Habitat generalists" = "#555555"
+)
+
+dir.create("habitat-trend-plots", showWarnings = FALSE)
+```
+
+## 2. Read Joel's data
+
+Joel's CSVs have one row per habitat and one column per year. We turn those year columns into two variables, `year` and `count`, so ggplot can use them.
+
+```{r}
+read_habitat <- function(location, season) {
+  file <- paste0("../habitat_data/", location, "_", season, "_habitat.csv")
+
+  read.csv(file, check.names = FALSE) |>
+    pivot_longer(cols = -habitat, names_to = "year", values_to = "count") |>
+    mutate(
+      year = as.integer(year),
+      count = as.numeric(count),
+      habitat = factor(habitat, levels = names(habitat_colors))
+    ) |>
+    filter(year >= start_year) |>
+    arrange(habitat, year)
+}
+```
+
+## 3. Make a simple trend-line graph
+
+The dots show the observed counts. The smooth curves are LOESS trend lines, with no confidence interval shading. We use the same colors for all six graphs.
+
+```{r}
+plot_habitat <- function(location, season, title) {
+  birds <- read_habitat(location, season)
+
+  p <- ggplot(birds, aes(x = year, y = count, color = habitat)) +
+    geom_point(alpha = 0.3, size = 0.8, na.rm = TRUE) +
+    geom_smooth(method = "loess", formula = y ~ x,
+                span = 0.75, se = FALSE, linewidth = 1, na.rm = TRUE) +
+    scale_color_manual(values = habitat_colors, drop = FALSE) +
+    scale_x_continuous(breaks = seq(1980, max(birds$year), by = 10)) +
+    scale_y_continuous(labels = scales::comma) +
+    labs(
+      title = title,
+      subtitle = paste("Habitat trends from 1980 to", max(birds$year)),
+      x = "Year", y = "Observed bird count", color = "Habitat",
+      caption = "Dots: annual counts | Lines: LOESS trends | Not adjusted for survey effort"
+    ) +
+    theme_minimal() +
+    theme(legend.position = "bottom")
+
+  ggsave(
+    filename = paste0("habitat-trend-plots/", location, "_", season,
+                      "_habitat_trendlines.png"),
+    plot = p, width = 11, height = 7, dpi = 300
+  )
+
+  p  # Display the plot when the chunk runs
+}
+```
+
+## 4. Durham — Spring
+
+```{r}
+plot_habitat("durham", "spring", "Durham — Spring")
+```
+
+## 5. Durham — Winter
+
+```{r}
+plot_habitat("durham", "winter", "Durham — Winter")
+```
+
+## 6. Chapel Hill — Spring
+
+```{r}
+plot_habitat("chapel_hill", "spring", "Chapel Hill — Spring")
+```
+
+## 7. Chapel Hill — Winter
+
+```{r}
+plot_habitat("chapel_hill", "winter", "Chapel Hill — Winter")
+```
+
+## 8. Jordan Lake — Spring
+
+```{r}
+plot_habitat("jordan_lake", "spring", "Jordan Lake — Spring")
+```
+
+## 9. Jordan Lake — Winter
+
+```{r}
+plot_habitat("jordan_lake", "winter", "Jordan Lake — Winter")
+```
+
+## Notes and limitations
+
+- These are **observed bird counts**, not survey-effort-adjusted population estimates.
+- Some habitats have zero counts throughout, so their curves may overlap at zero.
+- Jordan Lake spring has an all-zero year in 2020 in the supplied data; this should be checked with the team before interpreting it as a genuine decline.
+- LOESS can produce fitted values below zero near very small counts. Such values are a smoothing artifact, not negative bird counts.
+- Each location and season remains separate, as requested. No outside datasets are used.
