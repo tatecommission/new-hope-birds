@@ -1,10 +1,6 @@
 library(tidyverse)
 library(jsonlite)   # for the dropdown page at the bottom (comes with tidyverse)
 
-# If R can't find the files, set the working directory to the folder this script is in:
-#setwd("/Users/sub/newhope/basic_visual")      # <- uncomment and edit if needed
-# (or in RStudio: Session > Set Working Directory > To Source File Location)
-
 durham_spring <- read_csv("../data/spring/durham_spring_final.csv")
 jordan_lake_spring <- read_csv("../data/spring/jordan_lake_spring_final.csv")
 chapel_hill_spring <- read_csv("../data/spring/chapel_hill_spring_final.csv")
@@ -77,6 +73,63 @@ all_data <- bind_rows(
 )
 
 # =============================================================
+# SPECIES NAME CROSSWALK
+# Merges spellings that differ only by capitalization, hyphens/dashes,
+# apostrophes, extra spaces, accents or punctuation, e.g.
+#   "Eastern Screech-Owl" = "Eastern Screech Owl" = "eastern screech owl"
+# =============================================================
+
+# a "key" that ignores those differences; names with the same key are the same bird
+name_key <- function(x) {
+  x |>
+    stringi::stri_trans_general("Latin-ASCII") |>    # remove accents
+    str_to_lower() |>
+    str_replace_all("&", " and ") |>
+    str_replace_all("[-\u2010-\u2015]", " ") |>       # hyphens and dashes -> space
+    str_replace_all("[^a-z0-9 ]", "") |>              # drop apostrophes, periods, brackets...
+    str_squish()
+}
+
+# OPTIONAL: names that are genuinely different spellings or synonyms, which the key
+# can't catch. Format: "variant spelling" = "name you want to keep"
+manual_fixes <- c(
+  # "Rock Dove"   = "Rock Pigeon",
+  # "Grey Catbird" = "Gray Catbird"
+)
+
+all_data <- all_data |>
+  mutate(species = str_squish(species)) |>
+  filter(!is.na(species), species != "") |>
+  mutate(species = if (length(manual_fixes) > 0) coalesce(unname(manual_fixes[species]), species) else species)
+
+# for each group of look-alike names, keep ONE spelling: the one with the most hyphens
+# (official bird names use them, e.g. Screech-Owl), then the most common one
+crosswalk <- all_data |>
+  count(species, name = "n_rows") |>
+  mutate(key = name_key(species),
+         n_hyphens = str_count(species, "-")) |>
+  group_by(key) |>
+  arrange(desc(n_hyphens), desc(n_rows), species, .by_group = TRUE) |>
+  mutate(canonical = first(species)) |>
+  ungroup()
+
+# apply it
+all_data <- all_data |>
+  left_join(select(crosswalk, species, canonical), by = "species") |>
+  mutate(species = canonical) |>
+  select(-canonical)
+
+# check: which spellings got merged, and what they became
+merged_names <- crosswalk |>
+  group_by(key) |>
+  filter(n_distinct(species) > 1) |>
+  ungroup() |>
+  arrange(canonical, species) |>
+  select(kept_as = canonical, variant = species, n_rows)
+print(merged_names, n = Inf)
+write_csv(crosswalk, "species_crosswalk.csv")    # full list, to review in Excel
+
+# =============================================================
 # PLOT FUNCTION: any species, 2 x 3 separate panels
 # (season = rows, region = columns), curvy trend line with a 95% band
 # and a vertical 95% CI bar on the right side of each panel
@@ -84,7 +137,7 @@ all_data <- bind_rows(
 plot_species <- function(species_name, span = span_value) {
   
   species_data <- all_data |>
-    filter(str_to_lower(str_squish(species)) == str_to_lower(species_name)) |>
+    filter(name_key(species) == name_key(species_name)) |>
     drop_na(count) |>                       # blank cells = not measured that year
     group_by(region, season, year) |>
     summarise(count = sum(count), .groups = "drop") |>
@@ -98,21 +151,30 @@ plot_species <- function(species_name, span = span_value) {
   smooth_data <- filter(species_data, n_years >= 8)
   
   # 95% CI of the smoothed value in each site's LAST year (the side bar)
-  end_ci <- smooth_data |>
-    group_by(region, season) |>
-    group_modify(~ {
-      fit  <- loess(count ~ year, data = .x, span = span)
-      yr   <- max(.x$year)
-      p    <- predict(fit, data.frame(year = yr), se = TRUE)
-      half <- qt(0.975, p$df) * p$se.fit
-      tibble(year  = yr,
-             fit   = unname(p$fit),
-             lo    = max(unname(p$fit) - half, 0),          # counts can't go below 0
-             hi    = unname(p$fit) + half,
-             x_bar = yr + 0.04 * diff(range(.x$year)))      # a little right of the data
-    }) |>
-    ungroup() |>
-    drop_na(fit, lo, hi)
+  empty_ci <- tibble(region = character(), season = character(), year = numeric(),
+                     fit = numeric(), lo = numeric(), hi = numeric(), x_bar = numeric())
+  
+  end_ci <- empty_ci
+  if (nrow(smooth_data) > 0) {
+    end_ci <- smooth_data |>
+      group_by(region, season) |>
+      group_modify(~ {
+        fit <- tryCatch(suppressWarnings(loess(count ~ year, data = .x, span = span)),
+                        error = function(e) NULL)
+        if (is.null(fit)) return(tibble())
+        yr   <- max(.x$year)
+        p    <- suppressWarnings(predict(fit, data.frame(year = yr), se = TRUE))
+        half <- qt(0.975, p$df) * p$se.fit
+        tibble(year  = yr,
+               fit   = unname(p$fit),
+               lo    = max(unname(p$fit) - half, 0),          # counts can't go below 0
+               hi    = unname(p$fit) + half,
+               x_bar = yr + 0.04 * diff(range(.x$year)))      # a little right of the data
+      }) |>
+      ungroup()
+    if (!all(c("fit", "lo", "hi", "x_bar") %in% names(end_ci))) end_ci <- empty_ci
+    end_ci <- drop_na(end_ci, fit, lo, hi)
+  }
   
   ggplot(species_data, aes(x = year, y = count)) +
     geom_point(color = "grey35", size = 1.8, alpha = 0.7) +
@@ -135,8 +197,44 @@ plot_species <- function(species_name, span = span_value) {
     theme(strip.text = element_text(face = "bold"))
 }
 
-# plot any species by name:
-print(plot_species("Wood Duck"))
+# =============================================================
+# RUN EVERY SPECIES
+# Makes one page per species (2 x 3 panels) in "all_species_trends.pdf".
+# Species that can't be plotted are skipped with a message.
+# =============================================================
+species_list <- all_data |>
+  mutate(species = str_squish(species)) |>
+  filter(!is.na(species), species != "") |>
+  distinct(species) |>
+  arrange(species) |>
+  pull(species)
+
+save_pngs <- FALSE        # set TRUE to also save one PNG per species in "species_pngs/"
+if (save_pngs) dir.create("species_pngs", showWarnings = FALSE)
+
+pdf("all_species_trends.pdf", width = 12, height = 7)
+for (i in seq_along(species_list)) {
+  sp <- species_list[i]
+  message(i, " / ", length(species_list), ": ", sp)
+  
+  ok <- tryCatch({
+    p <- plot_species(sp)
+    suppressWarnings(print(p))                          # one PDF page per species
+    if (save_pngs) {
+      suppressWarnings(ggsave(file.path("species_pngs", paste0(str_replace_all(sp, "[^A-Za-z0-9]+", "_"), ".png")),
+                              p, width = 12, height = 7, dpi = 200))
+    }
+    TRUE
+  }, error = function(e) {
+    message("  skipped: ", conditionMessage(e))
+    FALSE
+  })
+}
+dev.off()
+message("Saved all_species_trends.pdf in: ", getwd())
+
+# to look at a single species on screen:
+# print(plot_species("Wood Duck"))
 
 # =============================================================
 # CLICKABLE DROPDOWN FOR ALL SPECIES (opens in your browser)
